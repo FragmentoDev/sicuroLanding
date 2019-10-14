@@ -1,0 +1,133 @@
+.card-dialog-text {
+    /* basic */
+    position: absolute;
+    background-color: #fff;
+    margin-left: -68px;
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+    /* border-radius */
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    /* box-shadow */
+    -webkit-box-shadow: 0px 11px 7px -3px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 11px 7px -3px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 11px 7px -3px rgba(0, 0, 0, 0.6);
+}
+
+.carousel-inner .img-card-dialog {
+    margin-top: 8%;
+    height: 180px;
+    width: 50%;
+}
+
+.carousel-caption {
+    right: 0;
+    bottom: 50%;
+    left: 17%;
+    z-index: 10;
+    padding-top: none;
+    padding-bottom: none;
+    text-align: start;
+}
+
+.carousel-caption p {
+    max-width: 500px;
+}
+
+.img-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card-body {
+    padding: 5.25rem;
+    -webkit-box-shadow: 0px 11px 7px -3px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 11px 7px -3px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 11px 7px -3px rgba(0, 0, 0, 0.6);
+}
+
+.card {
+    height: 250px;
+}
+
+.current-section {
+    background-color: #f57d49;
+    -webkit-box-shadow: 0px 11px 7px -3px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 11px 7px -3px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 11px 7px -3px rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    margin-left: -10%;
+    position: absolute;
+    height: 200px;
+}
+
+.current-section a {
+    color: white;
+}
+
+.banner-margin-top {
+    margin-top: 160px;
+}
+
+@media (max-width: 1200px) {
+    .carousel-caption {
+        bottom: 40%;
+    }
+    .banner-text {
+        h1 {
+            visibility: hidden;
+        }
+        p {
+            visibility: hidden;
+        }
+    }
+    .banner-margin-top {
+        margin-top: 250px;
+    }
+}
+
+@media (max-width: 992px) {
+    .card {
+        margin-top: 95px;
+    }
+    .img-card-dialog {
+        margin-top: 17%;
+        margin-left: -210px;
+    }
+    .carousel-caption {
+        bottom: 20%;
+    }
+    .current-section {
+        background-color: inherit;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        z-index: 0;
+        margin-left: 30px;
+        position: inherit;
+        height: 150px;
+    }
+    .current-section a {
+        color: grey;
+    }
+    .banner-margin-top {
+        margin-top: 130px;
+    }
+}
+
+@media (max-width: 576px) {
+    .img-card-dialog {
+        margin-top: 33%;
+    }
+    form {
+        padding-top: 30px;
+    }
+    .img-fluid {
+        padding-top: 10px;
+    }
+    .carousel-inner .img-card-dialog {
+        visibility: hidden;
+    }
+}
