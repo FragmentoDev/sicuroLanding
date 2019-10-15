@@ -52,18 +52,25 @@
     height: 250px;
 }
 
-.current-section {
+.navbar-nav .nav-item:hover {
     background-color: #f57d49;
     -webkit-box-shadow: 0px 11px 7px -3px rgba(0, 0, 0, 0.6);
     -moz-box-shadow: 0px 11px 7px -3px rgba(0, 0, 0, 0.6);
     box-shadow: 0px 11px 7px -3px rgba(0, 0, 0, 0.6);
     z-index: 1;
-    margin-left: -10%;
-    position: absolute;
     height: 200px;
 }
 
-.current-section a {
+.navbar-nav .nav-item:hover {
+    background-color: #f57d49;
+    -webkit-box-shadow: 0px 11px 7px -3px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 11px 7px -3px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 11px 7px -3px rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    height: 140px;
+}
+
+.navbar-nav .nav-item>a:hover {
     color: white;
 }
 
@@ -98,19 +105,6 @@
     }
     .carousel-caption {
         bottom: 20%;
-    }
-    .current-section {
-        background-color: inherit;
-        -webkit-box-shadow: none;
-        -moz-box-shadow: none;
-        box-shadow: none;
-        z-index: 0;
-        margin-left: 30px;
-        position: inherit;
-        height: 150px;
-    }
-    .current-section a {
-        color: grey;
     }
     .banner-margin-top {
         margin-top: 130px;
